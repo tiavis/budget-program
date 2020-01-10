@@ -1,0 +1,16 @@
+import math
+
+checking_account = float(input("Current Checking Account Balance: $"))
+savings_account = float(input("Current Savings Account Balance: $"))
+goal = float(input("Goal for Savings Account by 12/31/20: $"))
+remaining_for_goal = goal - savings_account
+
+CAAS = str(checking_account)
+SAAS = str(savings_account)
+GAS = str(goal)
+RFGAS = str(remaining_for_goal)
+
+print("Checking Account = $" + CAAS + "\n")
+print("Savings Account = $" + SAAS + "\n")
+print("Goal = $" + GAS + "\n")
+print("Remaning for Goal = $" + RFGAS + "\n")
